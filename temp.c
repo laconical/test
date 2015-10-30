@@ -1,18 +1,18 @@
 #include <stdio.h>
-#define u = 300;
-#define l = 0;
-#define s = 20
-main()
+#define upper 300
+#define lower  0
+#define step  20
+void main()
 {
 float fa, ce;
-float u,l,s;
-ce= u;
+
+ce= upper;
 printf("\t\t\ntable to show the temperature conversions\n ");
-while(ce >= l)
+while(ce >= lower)
 	{
 		fa = (9.0/5.0) * (ce+32.0);
 		printf("\n%6.0f %12.1f\n", fa, ce);
-		ce -= s;
+		ce -= step;
 		
 	}
 }
