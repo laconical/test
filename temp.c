@@ -1,10 +1,11 @@
+#include <stdio.h>
+#define u = 300;
+#define l = 0;
+#define s = 20
 main()
 {
 float fa, ce;
 float u,l,s;
-u= 300;
-l=0;
-s= 20;
 ce= u;
 printf("\t\t\ntable to show the temperature conversions\n ");
 while(ce >= l)
